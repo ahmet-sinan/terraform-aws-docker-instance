@@ -21,6 +21,6 @@ variable "server-name" {
 variable "docker-instance-ports" {
     type = list(number)
     description = "docker-instance-sec-gr-inbound-rules"
-    default = [22, 80, 8080]
+    default = [22, 80, 8080, 8081]
   
 }
